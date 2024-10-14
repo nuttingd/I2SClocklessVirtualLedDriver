@@ -28,7 +28,7 @@
         printf("Start Sketch: %s\n", name);                                         \
         uint32_t __timer1__ = 0;                                                    \
         uint32_t __timer2__ = 0;                                                    \
-        while ((__timer2__ - __timer1__) < duration)                                \
+        while ((__timer2__ - __timer1__) < ntimes)                                \
         {                                                                           \
             func;                                                                   \
             __timer2__++;                                                           \
